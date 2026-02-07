@@ -1,18 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import WhatsAppFloat from './components/WhatsAppFloat';
-import Loader from './components/Loader';
-import Home from './pages/Home';
-import ServicesPage from './pages/ServicesPage';
-import GalleryPage from './pages/GalleryPage';
-import TeamPage from './pages/TeamPage';
-import ProductsPage from './pages/ProductsPage';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import BookingPage from './pages/BookingPage';
-import ScrollToTop from './components/ScrollToTop';
+import Navbar from './components/Navbar.jsx';
+import Footer from './components/Footer.jsx';
+import WhatsAppFloat from './components/WhatsAppFloat.jsx';
+import Loader from './components/Loader.jsx';
+import Home from './pages/Home.jsx';
+import ServicesPage from './pages/ServicesPage.jsx';
+import GalleryPage from './pages/GalleryPage.jsx';
+import TeamPage from './pages/TeamPage.jsx';
+import ProductsPage from './pages/ProductsPage.jsx';
+import Contact from './pages/Contact.jsx';
+import About from './pages/About.jsx';
+import BookingPage from './pages/BookingPage.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
 
 function App() {
   const [loading, setLoading] = useState(true);
