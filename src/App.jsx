@@ -13,9 +13,6 @@ import About from './pages/About.jsx';
 import BookingPage from './pages/BookingPage.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
 
-
-
-import React, { useState } from 'react';
 import { MessageCircle, X, Send, Phone } from 'lucide-react';
 import { FaWhatsapp } from "react-icons/fa";
 
